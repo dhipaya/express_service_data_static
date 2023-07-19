@@ -1,9 +1,9 @@
 module.exports = {
     system: require("./system"),
-    provinces: require("./provinces"),
-    amphurs :require("./amphurs"),
-    tambons: require("./tambons"),
-    titles: require("./titles"),
+    provinces: require("./static/provinces"),
+    amphurs :require("./static/amphurs"),
+    tambons: require("./static/tambons"),
+    titles: require("./static/titles"),
     sendmail: require("./sendmail"),
 
 

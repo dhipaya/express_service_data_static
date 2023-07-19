@@ -1,4 +1,4 @@
-const Province = require("../models").province; //imported fruits array
+const Province = require("../../models").province; //imported fruits array
 // const Package = require("../models").Package;
 // const User = require("../models").User;
 const { Op } = require("sequelize");

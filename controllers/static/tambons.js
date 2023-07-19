@@ -1,4 +1,4 @@
-const Tambon = require("../models").Tambon; //imported fruits array
+const Tambon = require("../../models").Tambon; //imported fruits array
 // const Package = require("../models").Package;
 // const User = require("../models").User;
 const { Op } = require("sequelize");

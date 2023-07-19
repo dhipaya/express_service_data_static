@@ -1,4 +1,4 @@
-const Amphur = require("../models").Amphur; //imported fruits array
+const Amphur = require("../../models").Amphur; //imported fruits array
 // const Package = require("../models").Package;
 // const User = require("../models").User;
 const { Op } = require("sequelize");

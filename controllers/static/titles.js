@@ -1,4 +1,4 @@
-const Title = require("../models").Title; //imported fruits array
+const Title = require("../../models").Title; //imported fruits array
 // const Package = require("../models").Package;
 // const User = require("../models").User;
 const { Op } = require("sequelize");
