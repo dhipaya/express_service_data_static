@@ -25,7 +25,7 @@ const searchByinBrand = (req,res)=>{
   Amphur.findAll({
     attributes: ['BRANDCODE','BRANDNAME'],
     where: {
-        provinceid: req.params.index,
+        BRANDNAME: req.params.index,
       [req.params.para] :{
         [Op.like]:'%'+ req.params.value +'%'
       }
